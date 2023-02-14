@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginButtonComponent } from './components/login-button/login-button.component';
 import { LogoutButtonComponent } from './components/logout-button/logout-button.component';
 import { AuthenticationButtonComponent } from './components/authentication-button/authentication-button.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AuthenticationButtonComponent } from './components/authentication-butto
     HomeComponent,
     LoginButtonComponent,
     LogoutButtonComponent,
-    AuthenticationButtonComponent
+    AuthenticationButtonComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
